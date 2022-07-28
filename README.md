@@ -28,7 +28,7 @@ To use these data open [http://localhost:5000](http://localhost:5000) with your 
 **create a card**
 ```
 mutation {
-  createCard(question: "What is your name", description: "tell us your name", answer: "Arthur") {
+  createCard(question: "what is the capital city of Rwanda?", description: "Capital city", answer: "Kigali") {
     id
   }
 }
@@ -44,6 +44,8 @@ query AllCards {
     answer
   }
 }
+
+
 ```
 **To view one card**
 ```
